@@ -1,0 +1,237 @@
+.lw{
+	width: 1210px;
+	margin: 0 auto;
+}
+
+.main_nav{
+	border-bottom: 2px solid red;
+		background-color: #fff;
+}
+.search{
+	background-color: #fff;
+}
+.search .s_box {
+	border: 1px solid red;
+}
+.nl_show {
+	height: 227px;
+}
+.nav_l{
+	height:  50px;
+}
+.nav_l li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+}
+.nav_l li:nth-child(7){
+	border: 1px solid #ccc;
+	height: 22px;
+	margin-top: 13px;
+	line-height: 22px;
+	padding: 0 5px;
+	background-color: rgb(243,243,243);
+
+}
+
+.l_l  li span:nth-child(1){
+	width: 110px;
+	display: block;
+	float: left;
+	background-color: rgb(243,243,243);
+	text-align: center;
+	line-height: 34px;
+}
+.l_l li{
+	height: 34px;
+	border-top: 1px solid #ccc;
+} 
+.l_l a{
+	color: blue;
+}
+.l_l .one a{
+	height: 34px;
+	margin-left: 10px;
+	margin-right: 40px;
+	display: block;
+	float: left;
+	line-height: 34px;
+}
+
+.l_l  li span:nth-child(3){
+	width: 45px;
+	height: 23px;
+	display: block;
+	text-align: center;
+	line-height: 23px;
+	margin: 5px 11px 0 0;
+	border:1px solid #ccc;
+}
+
+.l_l ul li:nth-child(5){
+
+	border-bottom: 1px solid #ccc;
+}
+
+.gs_list{
+	height: 1053px;
+	padding: 0;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+.lg_list{
+	width: 178px;
+	height: 1035px;
+	border: 1px solid #ccc;
+}
+.lgt{
+	width: 178px;
+}
+.lgt h1{
+	width: 158px;
+	padding: 0 10px;
+}
+.lgt img {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.lgt p{
+	margin-left: 10px;/*
+	margin-bottom: 10px;*/
+}
+
+
+
+/*右边*/
+.rg_list{
+	width: 1020px;
+	margin-left: 10px;
+
+}
+.tg_top1{
+	height: 37px;
+	width: 1000px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: rgb(241,241,241);
+	line-height: 37px;
+	padding:0 10px;
+}
+.tg_top1 .tg_l span{
+	height: 23px;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	background-color: #fff;
+}
+.tg_top1 .tg_l .red{
+	height: 23px;
+	border: 1px solid red;
+	background-color: red;
+	margin-right: 10px;
+	color: #fff;
+}
+
+.tg_top1 .tg_r span{
+ 	margin-left: 10px;
+ }
+.tg_top1 .tg_r span:nth-child(3),
+ .tg_top1 .tg_r span:nth-child(4){
+ 	height: 23px;
+ 	width: 46px;
+ 	display: block;
+ 	float: right;
+ 	border:1px solid #ccc;
+ 	margin-top: 6px;
+ 	line-height: 23px;
+ 	text-align: center;
+ }
+.tg_top1 .tg_r span:nth-child(3){
+  	background-color: #fff;
+  	margin-left: -1px;
+  }
+
+
+
+.tg_top2{
+  	height: 37px;
+	width: 1000px;
+	border-bottom: 1px solid #ccc;
+	background-color: rgb(249,249,249);
+	line-height: 37px;
+	padding:0 10px;
+  }
+.tg_top2 span{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.tg_top2 span:last-child{
+	float: right;
+}
+.tg_top2 span:last-child .lala{
+	height:23px ;
+	width: 110px;
+	border: 1px solid #ccc;
+	display: block;
+	float: left;
+	margin-top: 7px;
+	padding-left: 4px;
+}
+.tg_top2 span:last-child .haha{
+	height: 23px;
+	width: 50px;
+	background-color: rgb(241,241,241);
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 7px;
+}
+
+
+.tg_list{
+	width: 1000px;
+	padding:0 10px;
+
+}
+
+.tg_list li{
+	display: block;
+	float: left;
+	height: 400px;
+	width: 220px;
+	/*background-color: red;*/
+	padding: 0 10px;
+	margin-right: 10px;
+	margin-top: 75px;
+}
+.tg_list p{
+	margin-bottom: 5px;
+}
+
+.tg_list li p .zy{
+	width: 30px;
+	height: 16px;
+	line-height: 16px;
+	display: block;
+	float: left;
+	background-color: red;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 10px;
+}
+.tg_list li p .ss{
+	width: 20px;
+	height: 14px;
+	line-height: 14px;
+	display: block;
+	float: left;
+	border: 1px solid red;
+	text-align: center;
+	border-radius: 5px;
+	
+}
