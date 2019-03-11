@@ -1,0 +1,80 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+ 	text-decoration: none;
+ 	list-style: none;
+ }
+
+ .news {
+	margin: 20px auto;
+	border: 1px solid #eee;
+ 	width: 298px;	
+ 	height: 98px;
+	overflow: hidden;
+ 	position: relative;	
+ }
+
+ .tab {
+ 	height: 27px;
+ }
+
+ .tab-wrap {
+ 	height: 27px;
+ 	width: 301px;
+	background: #ccc;
+	overflow: hidden;
+ 	position: absolute;
+ 	left: -1px;
+ }
+
+ .tab-wrap li {
+ 	float: left;
+ 	text-align: center;
+ }
+
+ .tab-wrap li a {
+ 	display: block;
+ 	width: 58px;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	border-bottom: 1px solid #eee;
+ 	padding: 0 1px;
+ 	color: #000;
+ }
+
+ .tab-wrap .mouseover {
+ 	background: #fff;
+ 	color: orange;
+ 	font-weight: bold;
+ 	border-bottom: 1px solid #fff;
+ 	border-right: 1px solid #eee;
+ 	border-left: 1px solid #eee;
+ 	padding: 0;
+ }
+
+ .content {
+ 	width: 100%;
+ 	height: 71px;
+ 	overflow: hidden;
+ }
+
+ .content .mod {
+ 	display: none;
+ }
+
+ .content div:first-child {
+ 	display: block;
+ }
+
+ .mod ul {
+ 	overflow: hidden;
+ }
+
+ .mod li {
+ 	float: left;
+ 	font-size: 14px;
+ 	margin: 10px;
+ }
+
+ --------------------- 作者：mr_fzz 来源：CSDN 原文：https: //blog.csdn.net/mr_fzz/article/details/53304639 
+ 版权声明：本文为博主原创文章，转载请附上博文链接！

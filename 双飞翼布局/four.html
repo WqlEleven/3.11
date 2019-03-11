@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>方法4</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				width: 100%;
+			}
+			.box{
+				padding: 0 200px;
+				height: 400px;
+			}
+			.box div{				
+				height: 400px;
+			}
+			.left,.right{
+				width: 200px;
+				background-color: orange;
+				margin-top: -400px;
+			}
+			.left{
+				float: left;
+				margin-left:-200px;
+			}
+			.right{
+				float: right;
+				margin-right:-200px;
+			}
+			.center{
+				background-color: coral;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="center"></div>
+			<div class="left"></div>			
+			<div class="right"></div>
+		</div>	
+	</body>
+</html>
