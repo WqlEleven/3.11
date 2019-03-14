@@ -6,28 +6,11 @@
 	贝塞尔曲线
 	递归
 	for循环
-3.京东列表  （4种布局方式）
+3.京东列表  （4种布局方式）浮动  flex
 4.双飞翼布局（4种）
 	左右固定，中间自适应
 	高度（1-2种）
-	
-	字段 类型 空 默认 注释 
-id int(11) 否   ID 
-name varchar(50) 否   品名 
-alias varchar(50) 否   简称 
-number varchar(50) 否   编码 
-picture  主图
-pictures text 否   商品图片集 
-intro text 否   简介 
-content text 否   详情 
-is_shelve tinyint(1) 否   上架，0：否；1：是 
-is_sell tinyint(1) 否   预售，0：否；1：是 
-sell_date date 否   预售日期 
-freight decimal(10,2) 否   运费 
-stock int(11) 否   库存 
-sort int(11) 否   排序，越大越靠前 
-sales int(11) 否   销量 
-add_time datetime 否   添加时间 
-status tinyint(1) 否   状态，0：正常出售，1：已抢光，2：预售，3：已下架
+
+
  
  

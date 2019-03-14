@@ -24,28 +24,22 @@
     text-align:center;
     cursor:pointer;
     color:#000;
-
-
 }
 .tab-control li.active{
     border-top:3px solid red;
     background-color:#fff;
     color:red;
-
-}
-
-.tab-control li + li{
-    border-left:1px solid #aaa;
+	border-left:1px solid #aaa;
 }
 .tab-content{
     width:1000px;
 }
 .tab-content .tab-content-item {
     display:none;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
 }
 .tab-content .tab-content-item.active {
     display:block;
-}
-.tab-content .tab-content-item img{
-    width:100%;
 }
